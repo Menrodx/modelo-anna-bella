@@ -1,0 +1,36 @@
+body{
+    background: #d2d2c1 url(imagens/fundo.png); /*A imagem 'fundo' é adicionada, caso ela não seja localizada teremos aplicada a cor d2d2c1. Quando utilizamos uma cor e uma imagem, a imagem fica sobre a cor - quando é utilizada uma imagem, ela é repetida*/
+    font: 16px Arial, Helvetica, sans-serif;
+}
+#principal{
+    width:900px; /*Define uma largura fixa para colocar a capa da modelo*/
+}
+#menu{
+    width: 900px;
+    background: #c5c5b2;
+    padding: 22px
+
+    }
+#conteudo{
+    background: #e8e8d9;
+    padding:10px;
+    width:900px;
+
+}
+a{
+        color:#4b566a;
+        text-decoration: none; /*Remove a decoração do texto*/
+        font-weight: bold; /*Coloca negrito no texto*/
+        padding: 5px; /*padding dá espaçamento */
+}
+.centralizar{
+text-align: center;
+
+}
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+.img-campanha{
+    border: 10px solid #c3c3ae;
+}
